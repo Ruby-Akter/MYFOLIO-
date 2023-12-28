@@ -1,0 +1,234 @@
+/* =========== Common Css Start =========== */
+h1,h2,h3,h4,h5,h6,
+p,ul,ol{
+    margin: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.section_info h2{
+    font-size: 46px;
+   font-weight: 800;
+   text-transform: uppercase;
+   color: #02918c;
+}
+ .section_info p{
+    font-size: 16px;
+    line-height: 41px;
+    color: #7e8287;
+ }
+
+/* =========== Common Css End =========== */
+
+
+/* =========== Nav Section Css Start =========== */
+#primary_nav{
+    background-color: #02918c;
+}
+#primary_nav #menu ul li a{
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 13.5px 25px;
+    display: inline-block;
+}
+/* =========== Nav Section Css End =========== */
+
+/* =========== Banner Section Css Start =========== */
+#banner{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 728px;
+    color: #ffffff;
+}
+
+#banner h3 {
+    font-size: 30px;
+    font-weight: 400;
+ }
+ 
+ #banner h1 {
+    font-size: 68px;
+    font-weight: 800;
+    letter-spacing: 30px;
+    text-transform: uppercase;
+ }
+ 
+ #banner p {
+    font-size: 18px;
+ }
+ #banner img{
+    margin: 38px 0;
+ }
+ 
+ #banner a {
+    font-size: 14px;
+    font-weight: 800;
+    color: #0b1016;
+    background-color: #cfc91d;
+    padding: 14px 57px;
+    display: inline-block;
+    transition: all linear .5s;
+ }
+ 
+ 
+/* =========== Banner Section Css End =========== */
+
+/* =========== About Section Css Start =========== */
+#about{
+    margin-top: 98px;
+}
+
+
+#about .section_info b{
+    font-size: 23px;
+}
+.about_box{
+    margin-top: 120px;
+    padding: 36px 0;
+    text-align: center;
+    border-right: 1px solid #ccc;
+    
+    
+    
+
+
+}
+.about_box:last-child{
+    border:none;
+}
+.about_box p{
+    font-size: 14.66px;
+    color: #7e8287;
+    font-weight: 400;
+    
+
+}
+.about_box h2{
+    font-weight: 800;
+    font-size: 16px;
+    color :#7e8287;
+    padding:28px;
+}
+.about_box img{
+    padding: 28px;
+}
+
+/* =========== About Section Css End ===========*/
+
+/* =========== Service  Section Css Start ===========*/
+#Service{
+margin-top: 155px;
+background-image: url(../img/banner2.jpg);
+background-size: cover;
+background-position: center;
+padding: 72px;
+}
+#Service .service_box{
+    margin-top:50px;
+    
+    
+}
+.service_box h2{
+padding :20px 0;
+font-weight: 800;
+font-size: 16px;
+color :#7e8287;
+}
+.service_box img{
+    padding:18px;
+}
+.service_box p{
+    font-size: 14.66px;
+    color: #7e8287;
+    font-weight: 400;
+
+}
+
+/* ===========  Service  Section Css End ===========*/
+
+/* =========== My Work Section Css Start ===========*/
+#My-Work{
+    padding: 110px 0;
+    
+}
+.work-box{
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    background-color: #02918c;
+    inset: 20px 28px;
+    color: #ffffff;
+    transform: scale(0);
+    text-align: center;
+    padding-top:45px;
+    transition: 0.6s;
+    
+}
+.work-box:hover .overlay{
+    transform: scale(1);
+}
+.overlay h2{
+    font-weight: 800;
+    font-size: 16px; 
+    padding: 15px;  
+}
+.overlay p{
+    font-size: 14.66px;
+
+    font-weight: 400;
+}
+
+
+/* ===========My Work Section Css End ===========*/
+
+
+/* ===========Contact Me Section Css Start===========*/
+#contact{
+margin-top:100px;
+margin-bottom: 75px;
+}
+.Contact-form{
+background-color:#0b0b0b ;
+}
+.Contact-form form input{
+ 
+    padding-top:70px ;
+    padding-bottom:20px;
+    text-align: center;
+    background: none;
+    border: none;
+    border-bottom:solid #ccc 1px;
+    color:#7e8287;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.Contact-form form button{
+    margin: 67px 0;
+    padding: 18px 67px;
+    background-color: #cfc91d;
+    color: #0b1016;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.Contact-form form input:focus{
+    border-bottom-color: #cfc91d;
+    outline: none;
+}
+/* =========== Contact Me Section Css End ===========*/
+
+footer{
+    color: #7e8287;
+    background-color: black;
+    padding: 28px 0;
+}
